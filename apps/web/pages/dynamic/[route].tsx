@@ -14,7 +14,11 @@ const DynamicRoute = () => {
     <div className={styles.warpper}>
       <h1>{t('dynamic')}</h1>
       <Link href={asPath} locale={locale === 'kr' ? 'en' : 'kr'}>
-        <a className={styles.button}>Change locale</a>
+        <a className={styles.button}>{t('changeLocaleButtonText')}</a>
+      </Link>
+      <hr />
+      <Link href="/">
+        <a className={styles.buttonSecondary}>{t('goBack')}</a>
       </Link>
     </div>
   );

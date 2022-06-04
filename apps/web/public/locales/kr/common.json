@@ -1,4 +1,7 @@
 {
   "title": "홈 | next-i18next",
-  "dynamic": "KR 언어팩 설정된 페이지"
+  "dynamic": "KR 언어팩 설정된 페이지",
+  "changeLocaleButtonText": "언어 변경하기",
+  "goToDynamicPageButtonText": "다이나믹 라우팅 페이지로 이동",
+  "goBack": "뒤로가기"
 }

@@ -13,7 +13,13 @@ export function Index() {
     <div className={styles.warpper}>
       <h1>{t('title')}</h1>
       <Link href={asPath} locale={locale === 'kr' ? 'en' : 'kr'}>
-        <a className={styles.button}>Change locale</a>
+        <a className={styles.button}>{t('changeLocaleButtonText')}</a>
+      </Link>
+      <hr />
+      <Link href="/dynamic">
+        <a className={styles.buttonSecondary}>
+          {t('goToDynamicPageButtonText')}
+        </a>
       </Link>
     </div>
   );

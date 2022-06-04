@@ -1,4 +1,7 @@
 {
   "title": "Home | next-i18next",
-  "dynamic": "this page has EN config"
+  "dynamic": "this page has EN config",
+  "changeLocaleButtonText": "Change locale",
+  "goToDynamicPageButtonText": "Go to dynamic routing page",
+  "goBack": "Go back"
 }
