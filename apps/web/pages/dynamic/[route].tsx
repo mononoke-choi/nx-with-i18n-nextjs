@@ -53,7 +53,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export async function getStaticProps({ locale }) {
-  console.log(await serverSideTranslations(locale, ['common'], i18config));
   return {
     props: {
       ...(await serverSideTranslations(locale, ['common'], i18config)),

@@ -26,11 +26,15 @@
       "configurations": {
         "development": {
           "buildTarget": "web:build:development",
-          "dev": true
+          "dev": true,
+          "port": 4200,
+          "hostname": "localhost"
         },
         "production": {
           "buildTarget": "web:build:production",
-          "dev": false
+          "dev": false,
+          "port": 4201,
+          "hostname": "localhost"
         }
       }
     },
