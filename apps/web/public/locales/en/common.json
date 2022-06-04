@@ -1,3 +1,4 @@
 {
-  "title"               : "Home | next-i18next"
+  "title": "Home | next-i18next",
+  "dynamic": "this page has EN config"
 }
