@@ -52,7 +52,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
         locale: 'en',
       },
     ],
-    fallback: false,
+    fallback: 'blocking',
   };
 };
 
