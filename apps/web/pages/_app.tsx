@@ -1,7 +1,6 @@
-import { appWithTranslation } from 'next-i18next';
 import { AppProps } from 'next/app';
-import Head from 'next/head';
-const i18config = require('../next-i18next.config');
+import Head         from 'next/head';
+
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -16,4 +15,4 @@ function CustomApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default appWithTranslation(CustomApp, i18config);
+export default CustomApp;
