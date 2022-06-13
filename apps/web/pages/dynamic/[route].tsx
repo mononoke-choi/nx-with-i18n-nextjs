@@ -61,6 +61,7 @@ export async function getStaticProps({ locale }) {
     props: {
       ...(await serverSideTranslations(locale, ['common'], i18config)),
     },
+    revalidate: 1
   };
 }
 
